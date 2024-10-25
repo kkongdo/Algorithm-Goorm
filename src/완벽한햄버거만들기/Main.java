@@ -1,4 +1,4 @@
-package 완벽한만들기;
+package 완벽한햄버거만들기;
 
 import java.io.*;
 import java.util.*;
