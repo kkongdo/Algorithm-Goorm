@@ -9,25 +9,25 @@ class Main {
 		int num = Integer.parseInt(br.readLine());
 		StringTokenizer st;
 		int result = 0;
-		
-		for(int i = 0; i < num; i++){
+
+		for (int i = 0; i < num; i++) {
 			st = new StringTokenizer(br.readLine());
 			int operand1 = Integer.parseInt(st.nextToken());
 			String operator = st.nextToken();
 			int operand2 = Integer.parseInt(st.nextToken());
-			switch(operator){
-				case "+":
-						result += (operand1 + operand2);
-					break;
-				case "-":
-						result += (operand1 - operand2);
-					break;
-				case "*":
-						result += (operand1 * operand2);
-					break;
-				case "/":
-						result += (operand1 / operand2);
-					break;
+			switch (operator) {
+			case "+":
+				result += (operand1 + operand2);
+				break;
+			case "-":
+				result += (operand1 - operand2);
+				break;
+			case "*":
+				result += (operand1 * operand2);
+				break;
+			case "/":
+				result += (operand1 / operand2);
+				break;
 			}
 		}
 		System.out.println(result);
