@@ -1,3 +1,5 @@
+package 뱀이지나간자리;
+
 import java.util.*;
 import java.io.*;
 
